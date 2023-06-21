@@ -52,28 +52,28 @@ img {
         align-items: center;
         height: 15rem;
     }
-}
-.text {
-    display: flex;
-    width: 20rem;
-    height: 15rem;
-    background-color: #f9f7e5;
-    flex-direction: column;
-    color: #55280f;
-    margin: 0px;
-    margin-left: 10px;
-    justify-content: flex-start;
-}
-
-p {
-    font-size: 12px
-
-}
-img {
-    margin: 0px;
-    width: 320px;
-}
-
-h3 {
-    font-size:  1em;
+    .text {
+        display: flex;
+        width: 20rem;
+        height: 15rem;
+        background-color: #f9f7e5;
+        flex-direction: column;
+        color: #55280f;
+        margin: 0px;
+        margin-left: 10px;
+        justify-content: flex-start;
+    }
+    
+    p {
+        font-size: 12px
+        
+    }
+    img {
+        margin: 0px;
+        width: 320px;
+    }
+    
+    h3 {
+        font-size:  1em;
+    }
 }
