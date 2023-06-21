@@ -1,11 +1,37 @@
 .containerNav {
     width: 50em;
     height: 10em;
-    background-color: yellowgreen;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    background-color: #f9f7e5;
+    border-radius: 75px;
 }
 img {
     width: 5em;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 36px 0%;
+    list-style-type: none
+}
+
+li {
+    background-color: #ecdf91;
+    width: 89px;
+    height: 35px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    color: #55280f;
+}
+
+.shop {
+    width: 190px;
+    height: 91px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 75px;
 }
